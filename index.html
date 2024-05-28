@@ -14,12 +14,19 @@
 </head>
 
 <body>
+
+    <!-- img + title -->
     <div id="output">
         <img :src="img" alt="blue_red_pill">
         <h1>
             {{ message }}
         </h1>
+        <div id="input">
+            <input type="text" v-model="message">
+        </div>
     </div>
+
+    <!-- input -->
     <script src="./js/script.js"></script>
 </body>
 
